@@ -428,7 +428,7 @@ app.get("/api/metadata", async (req, res) => {
 
 /**
  * @route GET /api/download
- * @description Initiates video download (direct proxy for TikTok, redirect for others).
+ * @description 
  */
 app.get("/api/download", async (req, res) => {
   try {
